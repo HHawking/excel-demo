@@ -71,7 +71,6 @@ public class UserService {
         response.setContentType("application/vnd.ms-excel");
         //这时候把创建好的excel写入到输出流
         workbook.write(outputStream);
-        //养成好习惯，出门记得随手关门
         outputStream.close();
 
 
